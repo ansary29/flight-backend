@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "fight booking application",
   "main": "index.js",
-  "type": "module",
-   "engines":{
-      "node" :"12.11.1"
+   "engines": {
+    "node": "16.13.2",
+    "npm" :"8.1.2"
   },
+  "type": "module",
+  
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
