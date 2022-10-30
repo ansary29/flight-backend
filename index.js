@@ -24,7 +24,7 @@ app.use(cors({
 
 app.use(express.json())
 
-const MONGO_URL = "mongodb+srv://ansary29:moham29@myproject.12hak.mongodb.net/flightbook?retryWrites=true&w=majority";
+const MONGO_URL = "youur uri";
 
 const Createconnection = async () => {
     try{mongoose.connect(MONGO_URL,{
